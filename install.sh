@@ -20,4 +20,4 @@ sudo apt-get install python3 python3-pip -y
 echo -e $b">"$w" installing modules: "$g"pillow"$w
 pip3 install Pillow
 echo -e $b">"$w" successfully installing dependencies"
-echo -e $b">"$w" use command "$g"python3 sara.py"$w" for start the console""
+echo -e $b">"$w" use command "$g"python3 sara.py"$w" for start the console"
