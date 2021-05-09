@@ -5,7 +5,7 @@ SARA - Simple Android Ransomware Attack
 ### Disclaimer
 The author is not responsible for any issues or damage caused by this program.
 
-### Fetaures
+### Features
 User can customize:
 - ```app_icon``` - custom icon application
 - ```app_name``` - custom name application
