@@ -17,7 +17,20 @@ Tested on Ubuntu, I never try installing in other OS
 ```bash
 git clone https://github.com/termuxhackers-id/SARA && cd SARA && sudo bash install.sh
 ```
-### Output Logs
+### Dependencies
+- Java
+- Aapt
+- Apktool
+- Zipalign
+- Imagemagick
+- Python3
+- Python3-pip
+  - Pillow
+
+### Overview
+<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/view.jpg">
+
+### Output logs
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/outputlog.jpg">
 
 ### Support Us
