@@ -27,12 +27,16 @@ git clone https://github.com/termuxhackers-id/SARA && cd SARA && sudo bash insta
 - Python3-pip
   - Pillow
 
-### Overview
+### Tools overview
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/view.jpg"></img>
-For Termux user you have to install ```Ubuntu Termux```
+For Termux you have to install ```Ubuntu Termux```
+
+### Ransomware overview
+<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/ransomware.jpg"></img>
+Tested on devices ```Android 10```
 
 ### Output logs
-<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/outputlog.jpg">
+<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/outputlog.jpg"></img>
 
 ### Support Us
 Facebook Pages [@termuxhackers.id](https://fb.me/termuxhackers.id)<br>
