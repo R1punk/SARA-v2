@@ -19,8 +19,10 @@ git clone https://github.com/termuxhackers-id/SARA && cd SARA && sudo bash insta
 ```
 ### Dependencies
 - Java
+  - Openjdk 11
 - Aapt
 - Apktool
+  - Apktool 4.2.0
 - Zipalign
 - Imagemagick
 - Python3
