@@ -2,7 +2,6 @@
 import os, sys, time, fileinput
 from getpass import getpass
 from PIL import Image
-from shutil import which
 
 r = "\033[1;31m"
 g = "\033[1;32m"
