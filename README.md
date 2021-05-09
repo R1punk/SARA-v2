@@ -28,7 +28,8 @@ git clone https://github.com/termuxhackers-id/SARA && cd SARA && sudo bash insta
   - Pillow
 
 ### Overview
-<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/view.jpg">
+<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/view.jpg"></img>
+For Termux user you have to install ```Ubuntu Termux```
 
 ### Output logs
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/outputlog.jpg">
