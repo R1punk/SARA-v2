@@ -135,7 +135,7 @@ def start():
     if os.path.isfile("final-aligned-signed.apk"):
         out = app_name.replace(" ","").lower() + ".apk"
         os.system("mv final-aligned-signed.apk "+out)
-        getpass(b+">"+w+" Result saved as:  "+B+" "+out+" "+w)
+        getpass(b+">"+w+" Result saved as: "+B+" "+out+" "+w)
     else: print(r+"[!]"+w+" Failed to signed APK's")
 
 if __name__ == "__main__":
