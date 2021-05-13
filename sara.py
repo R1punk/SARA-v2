@@ -106,7 +106,7 @@ def start():
     ]
     strings = "sara/res/values/strings.xml"
     print("I: Using strings "+strings)
-    smali = os.popen(f"find -O3 -L sara/ -name '*0000.smali'","r").readline().strip()
+    smali = os.popen(f"find -L sara/ -name '*0000.smali'","r").readline().strip()
     print("I: Using smali "+os.path.basename(smali))
     writefile(strings,"appname",app_name)
     print("I: Adding name with "+app_name)
