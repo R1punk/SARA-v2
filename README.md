@@ -22,7 +22,7 @@ git clone https://github.com/termuxhackers-id/SARA && cd SARA && sudo bash insta
   - Openjdk 11
 - Aapt
 - Apktool
-  - Apktool 4.2.0
+  - Apktool 2.4.0
 - Zipalign
 - Imagemagick
 - Python3
