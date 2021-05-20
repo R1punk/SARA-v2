@@ -35,7 +35,7 @@ apt-get install tsu -y
 echo -e $b">"$w" installing package: "$g"imagemagick"$w
 apt-get install imagemagick -y
 echo -e $b">"$w" installing pacakge: "$g"python3"$w
-apt-get install python3 python3-pip -y
+apt-get install python -y
 echo -e $b">"$w" installing modules: "$g"pillow"$w
 pip3 install Pillow
 echo -e $b">"$w" successfully installing dependencies"
