@@ -35,7 +35,7 @@ git clone https://github.com/termuxhackers-id/SARA && cd SARA && bash installter
 
 ### Tools overview
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/view.jpg"></img>
-For Termux you have to install ```Ubuntu Termux```
+Need root access for ```Termux Android```
 
 ### Ransomware overview
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/ransomware.jpg"></img>
