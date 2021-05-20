@@ -13,9 +13,13 @@ User can customize:
 - ```alert_desc``` - custom alert description
 - ```key_pass``` - custom key for unlock devices
 ### Installation
-Tested on Ubuntu, I never try installing in other OS 
+Quick installation for Ubuntu, Kali Linux, Darwin (Macos)
 ```bash
 git clone https://github.com/termuxhackers-id/SARA && cd SARA && sudo bash install.sh
+```
+Quick installation for Termux Android (Rooted)
+```bash
+git clone https://github.com/termuxhackers-id/SARA && cd SARA && bash installtermux.sh
 ```
 ### Dependencies
 - Java
