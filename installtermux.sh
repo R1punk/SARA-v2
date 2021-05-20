@@ -26,7 +26,11 @@ exit
 fi
 }
 clear
+echo -e $r"Please Wait..!! "$transparent
 cp -R $DIR/SARA $DIR/.suroot/SARA
+echo -e $r"Copy framework_res.apk"$transparent
+cp /system/framework/framework-res.apk $DIR/SARA/1.apk
+echo
 echo -e $b">"$w" SARA - Simple android ransomware attack"
 echo -e $b">"$w" prepare for installing dependencies ..."
 sleep 3
@@ -57,6 +61,8 @@ fi
 ln -s $DIR/SARA/.data/apktool $PREFIX/bin/
 ln -s $DIR/SARA/.data/binaries/java $PREFIX/bin/
 
+echo -e $r"Import Framework "$transparent
+sh $DIR/SARA/.data/apktool if $DIR/SARA/1.apk
 echo
 echo -e $g" [*] DONE!"
 sleep 1
