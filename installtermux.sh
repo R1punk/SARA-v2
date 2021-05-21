@@ -27,7 +27,7 @@ fi
 }
 clear
 echo -e $r"Please Wait..!! "$transparent
-cp -R $DIR/SARA $DIR/.suroot/SARA
+cp -R $DIR/SARA $DIR/SARA
 echo -e $r"Copy framework_res.apk"$transparent
 cp /system/framework/framework-res.apk $DIR/SARA/1.apk
 echo
