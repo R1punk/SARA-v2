@@ -136,7 +136,6 @@ def start():
         os.system("mv sarah.apk "+out)
         getpass(b+">"+w+" Result saved as: "+B+" "+out+" "+w)
     else: print(r+"[!]"+w+" Failed to signed APK's")
-
 if __name__ == "__main__":
     try:
         start()

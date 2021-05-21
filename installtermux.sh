@@ -11,7 +11,7 @@ b="\033[1;34m"
 w="\033[0m"
 transparent="\e[0m"
 
-DIR=/data/data/com.termux/files/home
+DIR=$HOME
 null="> /dev/null 2>&1"
 
 function check_root() {
