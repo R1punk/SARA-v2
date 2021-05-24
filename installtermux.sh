@@ -28,27 +28,26 @@ exit
 fi
 }
 clear
-
+cp -R $DI/SARA $DIR
 cp /system/framework/framework-res.apk $DI/SARA/1.apk
 echo
 echo -e $y" [*] Setting Up Program ..."$c
 echo
-chmod 777 $DIR/.data/binaries/lib/libld.so
-chmod +x $DIR/.data/apktool
-chmod +x $DIR/.data/signapk
-chmod 777 $DIR/.data/binaries/java
-chmod 777 $DIR/.data/binaries/bin/java
-chmod 777 $DIR/.data/binaries/bin/keytool
-
+tar -xf .data/jav.tar.gz -C $PREFIX/share 
+chmod +x $PREFIX/share/bin/*
+mv $PREFIX/share/bin/* $PREFIX/bin
+chmod +x .data/apktool
+chmod +x .data/signapk
+chmod 777 .data/binaries/bin/keytool
+rm .data/jav.tr.gz
 if [ -L $PREFIX/bin/apktool ]; then
 rm $PREFIX/bin/apktool
 fi
 
-ln -s $DIR/.data/apktool $PREFIX/bin/
-ln -s $DIR/.data/binaries/java $PREFIX/bin/
+aln -s $DIR/.data/apktool $PREFIX/bin/
 
 echo -e $r"Import Framework "$transparent
-sh $DIR/.data/apktool if $DI/SARA/1.apk
+sh .data/apktool if $DI/SARA/1.apk
 echo
 echo -e $g" [*] DONE!"
 sleep 1

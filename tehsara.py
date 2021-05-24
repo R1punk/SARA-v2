@@ -133,7 +133,8 @@ def start():
     os.system("rm -rf saraa.apk")
     if os.path.isfile("signed_sarah.apk"):
         out = app_name.replace(" ","").lower() + ".apk"
-        os.system("mv sarah.apk "+out)
+        os.system("mv signed_sarah.apk "+out)
+        os.system("mv sarah.apk /sdcard/sarah.apk")
         getpass(b+">"+w+" Result saved as: "+B+" "+out+" "+w)
     else: print(r+"[!]"+w+" Failed to signed APK's")
 if __name__ == "__main__":
