@@ -39,12 +39,12 @@ mv $PREFIX/share/bin/* $PREFIX/bin
 chmod +x .data/apktool
 chmod +x .data/signapk
 chmod 777 .data/binaries/bin/keytool
-rm .data/jav.tr.gz
+rm .data/jav.tar.gz > /dev/null 2>&1
 if [ -L $PREFIX/bin/apktool ]; then
 rm $PREFIX/bin/apktool
 fi
 
-aln -s $DIR/.data/apktool $PREFIX/bin/
+ln -s $DIR/.data/apktool $PREFIX/bin/
 
 echo -e $r"Import Framework "$transparent
 sh .data/apktool if $DI/SARA/1.apk
