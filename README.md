@@ -29,6 +29,8 @@ tsu
 bash installtermux.sh
 python3 tehsara.py
 ```
+### Video Tutorial using TERMUX
+[![Watch the video](https://i.ibb.co/C0m9CVC/view.jpg)](https://youtu.be/Yz84F6rZUOo) 
 ### Dependencies
 - Java
   - Openjdk 11
