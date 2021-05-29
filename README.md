@@ -18,9 +18,19 @@ Quick installation for Ubuntu, Kali Linux, Darwin (Macos)
 git clone https://github.com/termuxhackers-id/SARA && cd SARA && sudo bash install.sh
 ```
 Quick installation for Termux Android (Rooted)
+### Termux
+- apt-get install tsu -y
+- apt-get install imagemagick -y
+- apt-get install python -y
+- pip3 install Pillow
 ```bash
-git clone https://github.com/termuxhackers-id/SARA && cd SARA && bash installtermux.sh
+git clone https://github.com/R1punk/SARA && cd SARA
+tsu
+bash installtermux.sh
+python3 tehsara.py
 ```
+### Video Tutorial using TERMUX
+[![Watch the video](https://i.ibb.co/C0m9CVC/view.jpg)](https://youtu.be/poXKCgaBg3c) 
 ### Dependencies
 - Java
   - Openjdk 11
