@@ -49,7 +49,7 @@ Tested on devices ```Android 10```
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/outputlog.jpg"></img>
 
 ### Support Us
-Facebook Pages [@termuxhackers.id](https://fb.me/termuxhackers.id)<br>
+Facebook [@termuxhackers.id](https://fb.me/termuxhackers.id)<br>
 Instagram [@termuxhackers.id](https://instagram.com/termuxhackers.id)
 
 ### Credit's
