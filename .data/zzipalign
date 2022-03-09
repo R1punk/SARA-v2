@@ -1,4 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/bash
-
-export LD_LIBRARY_PATH=$HOME/SARA/.data/binaries/lib/arm:$LD_LIBRARY_PATH
-exec $HOME/SARA/.data/binaries/bin/zipalign

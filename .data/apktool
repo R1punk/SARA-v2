@@ -1,7 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/bash
-
-export LD_LIBRARY_PATH=$HOME/SARA/.data/binaries/lib/arm:$LD_LIBRARY_PATH
-umask 000
-cd $HOME/SARA/.data/binaries
-exec java -Xmx1024m -Djava.io.tmpdir=$HOME/SARA/ -jar $HOME/SARA/.data/binaries/apktool-2.2.2.jar -p $HOME/SARA/ "$@"
-
