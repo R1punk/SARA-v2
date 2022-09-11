@@ -25,7 +25,7 @@ Quick installation for Ubuntu, Kali Linux, Darwin (MAC)
 git clone https://github.com/termuxhackers-id/SARA && cd SARA && sudo bash install.sh
 ```
 
-Quick installation for Termux Android (ROOT)
+Quick installation for Termux Android
 ````bash
 git clone https://github.com/termuxhackers-id/SARA && cd SARA && bash installtermux.sh
 ````
