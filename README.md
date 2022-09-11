@@ -7,7 +7,8 @@ Can you guys help me to get back the lost stars? 😊
 ```
 ### Disclaimer
 The author is not responsible for any loses or damage caused by this program.
-
+### Sara Decryptor
+Download Decrypter APK's for Sara Ransomware version 2.0 [Click Here](https://drive.google.com/file/d/1hODfBdHRBw3Tyn8RhM-Zv8D3b7KFoLnt/view?usp=drivesdk)
 #### SARA version 1.0
 - ```app_icon``` - custom icon application
 - ```app_name``` - custom name application
