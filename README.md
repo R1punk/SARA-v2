@@ -39,10 +39,6 @@ git clone https://github.com/termuxhackers-id/SARA && cd SARA && bash installter
 - Python3
 - Python3-pip
   - Pillow
-
-### Tools overview
-<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/view.jpg"></img>
-Tested on Ubuntu Termux & Non-rooted Termux
 ### Ransomware overview
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/ransomware.jpg"></img>
 Sara Ransomware - version 1.0 ```Tested on Android 10```
