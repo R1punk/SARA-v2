@@ -42,9 +42,9 @@ git clone https://github.com/termuxhackers-id/SARA && cd SARA && bash installter
 ### Tools overview
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/toolview.png"></img>
 ### Sara Ransomware Version 1.0
-<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/ransomware.jpg"></img>
+<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/v1.jpg"></img>
 ### Sara Ransomware Version 2.0
-<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/v2.png"></img>
+<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/v2.jpg"></img>
 
 ### Output logs
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/outputlog.jpg"></img>
