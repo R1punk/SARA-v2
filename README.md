@@ -40,11 +40,11 @@ git clone https://github.com/termuxhackers-id/SARA && cd SARA && bash installter
 - Python3-pip
   - Pillow
 ### Tools overview
-<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/toolview.jpg"></img>
+<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/toolview.png"></img>
 ### Sara Ransomware Version 1.0
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/ransomware.jpg"></img>
 ### Sara Ransomware Version 2.0
-<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/v2.jpg"></img>
+<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/v2.png"></img>
 
 ### Output logs
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/outputlog.jpg"></img>
