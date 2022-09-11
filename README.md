@@ -43,11 +43,13 @@ git clone https://github.com/termuxhackers-id/SARA && cd SARA && bash installter
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/toolview.png"></img>
 ### Sara Ransomware Version 1.0
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/v1.jpg"></img>
+```Tested on Android 10```
 ### Sara Ransomware Version 2.0
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/v2.jpg"></img>
-
+```Tested on Android 10```
 ### Output logs
-<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/outputlog.jpg"></img>
+<img src="https://raw.githubusercontent.com/termuxhackers-id/SARA/main/src/output.jpg"></img>
+Now users can share their ransomware via the link
 
 ### Support Us
 Facebook [@termuxhackers.id](https://fb.me/termuxhackers.id)<br>
