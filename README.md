@@ -8,14 +8,13 @@ Can you guys help me to get back the lost stars? 😊
 ### Disclaimer
 The author is not responsible for any loses or damage caused by this program.
 
-### Features
-SARA version 1.0
+#### SARA version 1.0
 - ```app_icon``` - custom icon application
 - ```app_name``` - custom name application
 - ```alert_title``` - custom alert title
 - ```alert_desc``` - custom alert description
 - ```key_pass``` - custom key for unlock devices
-SARA version 2.0
+#### SARA version 2.0
 - ```app_icon``` - custom icon application
 - ```app_name``` - custom name application
 - ```app_desc``` - custom desctription (README.txt)
